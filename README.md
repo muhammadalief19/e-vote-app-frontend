@@ -1,8 +1,31 @@
-# React + Vite
+# E-vote-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-vote app adalah aplikasi untuk pemilihan Ketua Himpunan Mahasiswa (KAHIMA) merupakan sebuah platform yang memungkinkan anggota atau mahasiswa suatu perguruan tinggi untuk melakukan pemilihan kepemimpinan secara elektronik. Ini menyediakan cara yang lebih efisien, cepat, dan transparan dalam proses pemilihan dibandingkan dengan metode tradisional yang melibatkan pemungutan suara secara langsung di tempat pemilihan.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Authors
+
+- [Muhammad Alief Putra](https://www.github.com/muhammadalief19)
+
+## Features
+
+- Multi User
+- Realtime Counting
+
+## Installation
+
+Clone E-Vote-App
+
+```bash
+    git clone https://github.com/muhammadalief19/e-vote-app-frontend.git
+```
+
+Install my-project with npm
+
+```bash
+  cd e-vote-app-frontend
+  npm install
+```
