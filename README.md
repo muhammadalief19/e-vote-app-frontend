@@ -4,7 +4,7 @@ E-vote app adalah aplikasi untuk pemilihan Ketua Himpunan Mahasiswa (KAHIMA) mer
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2023-12-01 110000](https://github.com/muhammadalief19/e-vote-app-frontend/assets/100395046/828a071e-223d-4eeb-a8fd-d8990a966fbe)
 
 ## Authors
 
