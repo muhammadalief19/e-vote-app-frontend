@@ -74,20 +74,20 @@ export const mahasiswa = [
     icon: <MdHowToVote className="text-lg" />,
     component: <SuksesiMahasiswa />,
   },
-  {
-    name: "profile",
-    path: "profile",
-    layout: "",
-    icon: <AiOutlineUserSwitch className="text-lg" />,
-    component: <Profile />,
-  },
-  {
-    name: "result",
-    path: "result",
-    layout: "",
-    icon: <RiWaterPercentFill className="text-lg" />,
-    component: <Results />,
-  },
+  // {
+  //   name: "profile",
+  //   path: "profile",
+  //   layout: "",
+  //   icon: <AiOutlineUserSwitch className="text-lg" />,
+  //   component: <Profile />,
+  // },
+  // {
+  //   name: "result",
+  //   path: "result",
+  //   layout: "",
+  //   icon: <RiWaterPercentFill className="text-lg" />,
+  //   component: <Results />,
+  // },
 ];
 
 export const kandidat = [

@@ -84,7 +84,7 @@ export default function MahasiswaLayout() {
               <Route path="/verify" element={<Verify />} />
               <Route path="/suksesi/:id" element={<DetailSukesi />} />
               <Route path="/suksesi/voting/:id" element={<Vote />} />
-              <Route path="/result/suksesi/:id" element={<ResultSuksesi />} />
+              {/* <Route path="/result/suksesi/:id" element={<ResultSuksesi />} /> */}
             </Routes>
           </div>
         </div>
