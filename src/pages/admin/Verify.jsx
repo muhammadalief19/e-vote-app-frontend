@@ -20,7 +20,7 @@ export default function Verify() {
   const [nrp, setNrp] = useState("");
   const [alamat, setAlamat] = useState("");
   const [gender, setGender] = useState("");
-  const [ktm, setKtm] = useState("");
+  // const [ktm, setKtm] = useState("");
   const [user, setUser] = useState({});
   const token = localStorage.getItem("token");
   const navigate = useNavigate();
@@ -74,7 +74,7 @@ export default function Verify() {
     let formData = new FormData();
     formData.append("nrp", nrp);
     formData.append("alamat", alamat);
-    formData.append("foto_ktm", ktm);
+    // formData.append("foto_ktm", ktm);
     formData.append("jenis_kelamin", gender);
     formData.append("userId", user.id);
 
@@ -225,9 +225,9 @@ export default function Verify() {
                 <SelectItem key={"perempuan"}>perempuan</SelectItem>
               </Select>
             </div>
-            <div className="w-full md:col-span-2">
+            {/* <div className="w-full md:col-span-2">
               <FileInput2 title={"Upload Foto KTM"} handleFile={setKtm} />
-            </div>
+            </div> */}
             <div className="w-full md:col-span-2">
               <Button
                 type="submit"

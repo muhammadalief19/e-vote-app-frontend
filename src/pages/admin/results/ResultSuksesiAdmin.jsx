@@ -49,10 +49,10 @@ export default function ResultSuksesiAdmin() {
         data.kandidats.map(async (value) => {
           try {
             const response = await resultVote(token, data.id, value.id);
-            return response?.percetage || "N/A";
+            return response?.percetage || "0";
           } catch (error) {
             console.log(error);
-            return "N/A";
+            return "0";
           }
         })
       );
